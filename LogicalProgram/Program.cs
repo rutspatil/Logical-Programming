@@ -37,6 +37,10 @@ namespace LogicalProgram
                     ReverseNumber reverse = new ReverseNumber();
                     reverse.reverseNumber();
                     break;
+                case 5:
+                    StopWatch stopwatch = new StopWatch();
+                    stopwatch.stopWatch();
+                    break;
             }
 
 
