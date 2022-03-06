@@ -33,6 +33,10 @@ namespace LogicalProgram
                     PrimeNumber primenum = new PrimeNumber();
                     primenum.primeNumber();
                     break;
+                case 4:
+                    ReverseNumber reverse = new ReverseNumber();
+                    reverse.reverseNumber();
+                    break;
             }
 
 
