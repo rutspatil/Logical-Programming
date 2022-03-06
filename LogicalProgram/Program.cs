@@ -22,13 +22,19 @@ namespace LogicalProgram
                     FibonacciSeries series = new FibonacciSeries();
                     series.fibonacci();
                     break;
-            
-            
+
+
                 case 2:
                     PerfectNumber perfectnum = new PerfectNumber();
-                perfectnum.perfectNumber();
-                break;
+                    perfectnum.perfectNumber();
+                    break;
+
+                case 3:
+                    PrimeNumber primenum = new PrimeNumber();
+                    primenum.primeNumber();
+                    break;
             }
+
 
 
 
